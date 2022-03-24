@@ -75,7 +75,7 @@ const Score = (props) => {
                   height: "30px",
                   borderRadius: "30px",
                   margin: "5px",
-                  backgroundColor: rate < idx + 1 ? "#ddd" : "#ffeb3b",
+                  backgroundColor: rate < idx + 1 ? "red" : "#ffeb3b",
                 }}
               ></div>
             );
